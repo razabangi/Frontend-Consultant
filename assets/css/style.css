@@ -1,0 +1,461 @@
+@font-face {
+	font-family: miriamLibre-regular;
+	src: url(../fonts/miriam_libre/MiriamLibre-Regular.ttf);
+}
+
+.container
+{
+	width: 940px;
+	margin: 0 auto;
+}
+
+header
+{
+	height: 125px;
+	background: #151515;
+}
+
+.logo
+{
+	float: left;
+	padding-top: 44px;
+}
+
+.search
+{
+	padding-top: 45px;
+	float: right;
+}
+
+.search input[type="search"]
+{
+	width: 301px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	background: #fcfcfc; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcfcfc 1%, #e7e7e7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fcfcfc 1%,#e7e7e7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fcfcfc 1%,#e7e7e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+
+nav
+{
+	height: 71px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#34b3d3+2,1992bf+100 */
+background: #34b3d3; /* Old browsers */
+background: -moz-linear-gradient(top,  #34b3d3 2%, #1992bf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #34b3d3 2%,#1992bf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #34b3d3 2%,#1992bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34b3d3', endColorstr='#1992bf',GradientType=0 ); /* IE6-9 */
+
+}
+
+nav .container ul
+{
+	
+	line-height: 71px;
+}
+
+nav .container ul li
+{
+	float: left;
+	padding-right: 35px;
+	padding-left: 35px;
+	border-left:1px solid #0f76aa; 
+}
+
+nav .container ul li:last-child
+{
+	border-right: 1px solid #0f76aa;
+}
+
+nav .container ul li a
+{
+
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-shadow: 1px 1px 0px #1689b6;
+	font-family: miriamLibre-regular;
+
+}
+
+nav .container ul li a:hover
+{
+
+}
+
+section
+{
+	height: 640px;
+	background: url('../images/body-bg.png');
+}
+
+section .main-content h2
+{
+	padding-top: 37px;
+	font-size: 22px;
+	color: #262626;
+	font-family: miriamLibre-regular;
+	margin-bottom: 20px;
+}
+
+section .main-content
+{
+
+}
+
+section .main-content ul
+{
+
+}
+
+section .main-content ul li
+{
+	float: left;
+	margin-right: 30px;
+}
+
+section .main-content ul li h3
+{
+	font-size: 18px;
+	color: #5ec4db;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: miriamLibre-regular;
+}
+
+section .main-content ul li img
+{
+	margin-bottom: 20px;
+}
+
+footer
+{
+	height: 395px;
+	background: black;
+}
+
+.col-left
+{
+	float: left;
+	width: 626px;
+}
+
+.footer-content h3
+{
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-top: 38px;
+	color: #fff;
+	font-family: miriamLibre-regular;
+	margin-bottom: 10px;
+}
+
+.footer-form ul
+{
+
+}
+
+.footer-form ul li
+{
+	margin-bottom: 10px;
+}
+
+.footer-form ul li input[type="text"], .footer-form ul li textarea
+{
+	width: 581px;
+}
+
+.footer-form ul li input[type="text"]
+{
+	padding: 10px 0px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.footer-form ul li textarea
+{
+	height: 140px;
+	resize: none;
+	width: 575px;
+}
+
+.col-right
+{
+	float: right;
+	width: 300px;
+}
+
+
+.footer-social ul
+{
+	margin-bottom: 10px;
+}
+
+.footer-social ul li
+{
+	margin-bottom: 10px;	
+}
+
+.footer-social ul li span
+{
+	vertical-align: middle;
+	display: inline-block;
+	width: 50px;
+}
+
+.footer-social ul li a
+{	
+	text-transform: uppercase;
+	color: grey;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: miriamLibre-regular;
+	/*vertical-align: top;*/
+	/*padding-top: 15px;*/
+}
+
+.divider
+{	
+	border-top: 1px solid black;
+	border-bottom: 1px solid #2c2c2c;
+	margin-bottom: 40px;
+}
+
+.copyright ul
+{
+
+}
+
+.copyright ul li
+{
+	margin-bottom: 5px;
+}
+
+.copyright ul li p
+{
+	font-size: 13px;
+	color: grey;
+	font-family: sans-serif;
+}
+
+.copyright ul li b
+{
+	color: #39b9d6;
+}
+
+/*********************************************************************************************
+
+	Home Page Style.
+	
+**********************************************************************************************/
+section.home-main
+{
+	height: 1226px;
+}
+
+.slider
+{
+	position: relative;
+}
+
+.home-slider-image
+{
+	position: absolute;
+	top: 80px;
+	left: 180px;
+	/*bottom: 0;*/
+}
+
+.home-left
+{
+	float: left;
+	width: 593px;
+}
+
+
+
+.home-content h2
+{
+	margin-top: 120px;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: miriamLibre-regular;
+}
+
+.left-content p
+{
+	margin-top: 15px;
+	font-size: 20px;
+	font-style: italic;
+	letter-spacing: 1px;
+	color: #929292;
+	font-family: sans-serif;
+}
+
+.left-content span
+{
+	color: #39b9d6;
+}
+
+.home-panel ul
+{
+	margin-top: 50px;
+}
+
+.home-panel ul li
+{
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+.home-panel ul li .left-home-content
+{
+	width: 252px;
+}
+
+.home-panel ul li .left-home-content p
+{
+	margin-top: 5px;
+	font-size: 14px;
+	font-style: none;
+	margin-bottom: 10px;
+}
+
+.home-panel ul li .left-home-content a
+{
+	color: #39b9d6;
+	font-size: 14px;
+	text-decoration: underline;
+	background: url('../images/arrow1.png') 100% no-repeat;
+	padding-right: 20px;
+}
+
+
+.home-panel ul li .left-home-content .panel-thumb
+{
+	width: 100px;
+	float: left;
+}
+
+.home-panel ul li .left-home-content .panel-content
+{
+	width: 152px;
+	float: right;
+	padding-top: 30px;
+}
+
+.home-panel ul li .left-home-content .panel-content h5
+{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #39b9d6;
+	font-family: miriamLibre-regular;
+}
+
+.home-panel ul li .left-home-content .panel-content h6
+{
+	font-size: 16px;
+	font-style: italic;
+	text-transform: capitalize;
+	color: black;
+	font-family: miriamLibre-regular;
+}
+
+.home-right
+{
+	float: right;
+	width: 300px;
+}
+
+.testimonials
+{
+	margin-top: 25px;
+}
+
+.testimonials-thumb
+{
+	width: 98px;
+	float: left;
+}
+
+.testimonials-content
+{
+	width: 202px;
+	float: right;
+}
+
+.testimonials-content ul
+{
+
+}
+
+.testimonials-content ul li
+{
+	margin-bottom: 5px;
+	font-family: miriamLibre-regular;
+}
+
+.testimonials-content ul li h6
+{
+	font-size: 14px;
+	color: #929292;
+}
+
+.testimonials-content ul li h5
+{
+	font-size: 22px;
+	color: #39b9d6;
+}
+
+.testimonials-content ul li p
+{
+	font-size: 14px;
+	color: black;
+	word-spacing: 5px;
+}
+
+.testimonials-content ul li a
+{
+	font-size: 14px;
+	color: #39b9d6;
+	text-transform: capitalize;
+	text-decoration: underline;
+	background: url('../images/arrow1.png') 100% no-repeat;
+	padding-right: 20px;
+}
+
+/*********************************************************
+
+	Services CSS
+
+*********************************************************/
+
+.servies-right-content
+{
+
+}
+
+.servies-right-content ul
+{
+
+}
+
+.servies-right-content li
+{
+
+}
+
+.servies-right-content li span
+{
+	display: inline-block;
+	width: 60px;
+}
